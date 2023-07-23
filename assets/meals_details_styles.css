@@ -1,0 +1,39 @@
+body{
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgba(0,0,0,0.9);
+    /*background-image: linear-gradient(to bottom right,rgba(38, 45, 46, 0) 10%,  rgb(151, 226, 148) 60%,rgba(112, 229, 250, 0) 80%,#04a7e7);*/
+    color: white;
+}
+
+/* main div styles */
+#main{
+    height: 95%;  
+    text-align: center; 
+}
+h2{
+    font-size: 40px;
+    
+}
+img{
+    border-radius: 20px;
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+}
+
+a{
+    font-size: 20px;
+}
+
+/* home anchors style */
+#backImg{
+    margin: 25px 0 0 25px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    float: left;
+}
+
+
+

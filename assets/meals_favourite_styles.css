@@ -1,0 +1,112 @@
+body{
+    background-color:rgb(131, 61, 78);
+    background-image: url("https://media.gettyimages.com/id/540877372/photo/close-up-image-of-herbs-and-spices-on-black-background.jpg?s=1024x1024&w=gi&k=20&c=SO0nKmgMUjv4t2gn5QICeIoqbJuRbN3Rzy70i4suPP0=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* fav list styles */
+#fav-list{
+    border-radius: 10px; 
+    overflow: scroll;
+    max-height: 65vh;
+    overflow: scroll;
+}
+
+/* removing scroll bar  */
+#fav-list::-webkit-scrollbar {
+    display: none;
+}
+
+/* items styel/  */
+#fav-items{
+    width: 98%;
+    margin: 10px;
+    height: 150px; 
+    border: 2.5px solid whitesmoke; 
+    padding: 0%;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,  rgb(37, 41, 39),rgba(77, 104, 97, 0));
+}
+
+/* elements in fav div  */
+#fav-items > div{
+    height: 150px; 
+    width: 160px; 
+    border-radius: 5px;
+    float: right;
+}
+#fav-items > a{
+    text-decoration: none;
+    /*color: rgb(238, 229, 229);*/
+    color: white;
+}
+
+/* meal imag  */
+#fav-items  img{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:auto;
+    
+}
+
+/* heading- name of meal  */
+#fav-items h5{
+    font-family: ui-monospace;
+    height: 60px;
+    overflow: hidden;
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: rgb(65, 144, 158);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* add fav button  */
+#fav-items button {
+    height: 40px;
+    margin-left: 50px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,  rgb(85, 182, 122),rgba(255,0,0,0));
+}
+
+/* ------------------------fav ----------------------------- */
+#fav-div{
+    /*background-color: rgb(142, 119, 255);*/
+    background-image: rgba(100,100,10,0.7);
+    border: 2.5px solid rgba(245, 245, 245, 0.877);
+    overflow: hidden;
+    transition: all 0.1s ease-in-out;
+    padding: 15px;
+    margin-top: 35px;
+}
+
+/* list style  */
+.centerLists{
+    border:  2px solid white;
+    width: 70%;
+    height: 80%;
+    margin: auto;
+}
+
+#fav-div h1{
+    /* color: ; */
+    width: 100%;
+    text-align: center;
+    font-family: cursive;
+    color: whitesmoke;
+}
+
+/* home anchors style */
+a img{
+    margin: 25px 0 0 25px;
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    float: left;
+    border-radius: 15px;
+}
+
+
